@@ -14,7 +14,6 @@ def line (line)
     end
   puts "The line is currently: #{line_list}"
   end
-  puts line_list.join(",")
 end
 
 
