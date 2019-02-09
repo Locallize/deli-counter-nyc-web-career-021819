@@ -8,7 +8,7 @@ def line (line)
     puts "The line is currently empty."
   else
        while counter < line.length
-       line_list ="#{counter+1}. #{line[counter]}"
+       line_list << #{counter+1}. #{line[counter]}"
        counter +=1 
      end
      puts line_list.to_s
