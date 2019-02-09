@@ -7,11 +7,11 @@ def line (line)
   if line.length == 0 
     puts "The line is currently empty."
   else
-       while counter <= line.length
+       while counter < line.length
        line_list << "#{counter+1}. #{line[counter]}"
        counter +=1 
      end
-     puts line_list
+     puts "The line is currently: #{line_list}"
   #   while counter < line.length
   #   line_list.push("#{counter+1}. #{line[counter]}")
   #   counter += 1
