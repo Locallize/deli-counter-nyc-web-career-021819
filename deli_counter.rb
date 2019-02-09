@@ -11,7 +11,7 @@ def line (line)
        line_list << "#{counter+1}. #{line[counter]}"
        counter +=1 
      end
-     puts line_list.to_s
+     puts line_list
      
      
   #   while counter < line.length
