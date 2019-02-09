@@ -2,7 +2,7 @@
 
 def line (line)
   counter = 0 
-  line_list = ""
+  line_list = []
     
   if line.length == 0 
     puts "The line is currently empty."
@@ -12,6 +12,8 @@ def line (line)
        counter +=1 
      end
      puts line_list.to_s
+     
+     
   #   while counter < line.length
   #   line_list.push("#{counter+1}. #{line[counter]}")
   #   counter += 1
