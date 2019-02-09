@@ -12,7 +12,7 @@ def line (line)
        line.
        counter +=1 
      end
-     puts line
+     puts line.join(",")
      
      
   #   while counter < line.length
