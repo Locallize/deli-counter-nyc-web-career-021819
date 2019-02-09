@@ -11,7 +11,7 @@ def line (line)
        line_list << "#{counter+1}. #{line[counter]}"
        counter +=1 
      end
-     puts "The line is currently:" line_list
+     puts line_list
   #   while counter < line.length
   #   line_list.push("#{counter+1}. #{line[counter]}")
   #   counter += 1
