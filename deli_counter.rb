@@ -9,10 +9,10 @@ def line (line)
   else
 
     while counter < line.length
-    line_list.push("#{counter+1}. #{line[counter]}")
+    line_list.push("#{counter+1}.#{line[counter]}")
     counter += 1
     end
-  puts "The line is currently: #{line_list.join(",")}"
+  puts "The line is currently: #{line_list.join(" ,")}"
   end
 end
 
