@@ -13,7 +13,7 @@ def line (line)
     end
    puts "The line is currently: #{line_list}"
   end
-  line_list
+  
 end
 
 
