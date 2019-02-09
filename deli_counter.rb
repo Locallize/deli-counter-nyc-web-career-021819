@@ -2,7 +2,7 @@
 
 def line (line)
   counter = 0 
-  line_list = []
+  line_list = ""
     
   if line.length == 0 
     puts "The line is currently empty."
