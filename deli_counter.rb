@@ -9,6 +9,7 @@ def line (line)
   else
        while counter < line.length
        line[counter] = "#{counter+1}. #{line[counter]}"
+       line.
        counter +=1 
      end
      puts line
