@@ -12,14 +12,9 @@ def line (line)
        line.
        counter +=1 
      end
-     
-  #   while counter < line.length
-  #   line_list.push("#{counter+1}. #{line[counter]}")
-  #   counter += 1
-  #   end
-  # puts "The line is currently: #{line_list}"
+    puts line_list.join
   end
-  puts line_list.join(",")
+  
 end
 
 
