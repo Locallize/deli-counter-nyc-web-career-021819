@@ -12,7 +12,7 @@ def line (line)
     line_list.push("#{counter+1}. #{line[counter]}")
     counter += 1
     end
-  puts "The line is currently: #{line_list.join(", ")}"
+  puts "The line is currently: #{line_list.join(" ")}"
   end
 end
 
