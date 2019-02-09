@@ -12,8 +12,6 @@ def line (line)
        line.
        counter +=1 
      end
-     puts line.join(",")
-     
      
   #   while counter < line.length
   #   line_list.push("#{counter+1}. #{line[counter]}")
@@ -21,7 +19,7 @@ def line (line)
   #   end
   # puts "The line is currently: #{line_list}"
   end
-  
+  puts line_list.join(",")
 end
 
 
